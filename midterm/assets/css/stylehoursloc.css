@@ -1,0 +1,138 @@
+body {
+	font-family: Open Sans, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #FFE6A7;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+	background-color: #BB9457;
+	color: #fff;
+	padding: 3px;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index:1;
+    max-width:100%
+
+}
+
+.topdoglogo img {
+    height: 100px;
+    margin-left: 7px;
+    margin-top: 9px;
+
+}
+
+nav {
+   margin: auto;
+   margin-right: 50px;
+
+
+   width: auto;
+   height: 40px;
+   padding-bottom:28px;
+   background-color: #432818;
+
+
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid;
+
+}
+#belowheader {
+    display: flex;
+    flex-direction: column;
+    background:  #6F1D1B;
+    }
+
+#belowheader img {
+    max-width:100%
+
+}
+
+
+#belowheader h1 {
+    color: white;
+    font-size: 22px;
+    background:  #6F1D1B;
+}
+
+main {
+    text-align: center;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 25px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#locationberkeley {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    line-height: 2;
+    margin-right:auto;
+    margin-left: auto;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 150px;
+
+}
+#locationberkeley img {
+    width: 400px;
+    height: auto;
+}
+
+#locationberkeley p {
+    width: 300px;
+    height: 200px;
+    background: #432818;
+    color: white;
+    padding: 50px;
+    border: 2px solid;
+
+}
+
+#locationoakland {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    line-height: 2;
+    margin-right:auto;
+    margin-left: auto;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#locationoakland img {
+    width: 400px;
+    height: auto;
+
+}
+#locationoakland p {
+    width: 300px;
+    height: auto;
+    background: #432818;
+    color: white;
+    padding: 50px;
+    border: 2px solid;
+}

@@ -1,0 +1,85 @@
+body {
+	font-family: Open Sans, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #FFE6A7;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+	background-color: #BB9457;
+	color: #fff;
+	padding: 12px;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index:1;
+    max-width:100%
+
+}
+
+.topdoglogo img {
+    height: auto;
+    margin-left: 7px;
+    margin-top: 9px;
+
+}
+
+nav {
+    margin: auto;
+    margin-right: 50px;
+
+
+    width: auto;
+    height: 40px;
+    padding-bottom:28px;
+    background-color: #432818;
+
+
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#belowheader {
+    display: flex;
+    flex-direction: column;
+    background: #432818;
+    }
+
+#belowheader img {
+    max-width:100%
+
+}
+
+
+#belowheader h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background:  #432818;
+}
+
+main {
+    text-align: center;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 25px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
