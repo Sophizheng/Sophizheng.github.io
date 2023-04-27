@@ -15,6 +15,7 @@ body {
     height: 100vh;
     transition: background-color ease 0.5s;
     background-color: #ccc;
+
 }
 
 #q1-spine {

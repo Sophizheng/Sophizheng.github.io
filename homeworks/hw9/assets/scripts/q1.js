@@ -9,13 +9,12 @@
  * @param {string} color The background color that #q1-container should change to
  */
 function setBackgroundColor(color) {
+    document.querySelector("#q1-container").style.background = color;
+
     // TODO: Get the element with the id "q1-container" and set its background color to the input color
-
-
-
-
-
 }
+
+
 
 //
 // Part 2: Code the function redButtonClicked() and make the browser run the function for you when #q1-btn-red is clicked
@@ -30,9 +29,7 @@ function setBackgroundColor(color) {
  */
 function redButtonClicked() {
     // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
-
-
-
+    setBackgroundColor("#EF476F");
 
 
 }
@@ -51,14 +48,15 @@ document.getElementById("q1-btn-red").onclick = redButtonClicked;
 
 // TODO: Define a function like yellowButtonClicked() that sets the background color
 
+function yellowButtonClicked() {
+    // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
+    setBackgroundColor("#FFD166");
 
 
-
+}
+document.getElementById("q1-btn-yellow").onclick = yellowButtonClicked;
 
 // TODO: Set the browser to run the function yellowButtonClicked() when someone clicks #q1-btn-yellow
-
-
-
 
 
 //
@@ -69,7 +67,13 @@ document.getElementById("q1-btn-red").onclick = redButtonClicked;
 // Use the color #06D6A0, or change it up to your liking
 
 // TODO: Make the green button work similarly
+function greenButtonClicked() {
+    // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
+    setBackgroundColor("#06D6A0");
 
+
+}
+document.getElementById("q1-btn-green").onclick = greenButtonClicked;
 
 
 
@@ -78,7 +82,13 @@ document.getElementById("q1-btn-red").onclick = redButtonClicked;
 // Use the color #118AB2, or change it up to your liking
 
 // TODO: Make the light blue button work similarly
+function lightblueButtonClicked() {
+    // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
+    setBackgroundColor("#118AB2");
 
+
+}
+document.getElementById("q1-btn-lightblue").onclick = lightblueButtonClicked;
 
 
 
@@ -87,3 +97,10 @@ document.getElementById("q1-btn-red").onclick = redButtonClicked;
 // Use the color #073B4C, or change it up to your liking
 
 // TODO: Make the blue button work similarly
+function blueButtonClicked() {
+    // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
+    setBackgroundColor("#073B4C");
+
+
+}
+document.getElementById("q1-btn-blue").onclick = blueButtonClicked;
